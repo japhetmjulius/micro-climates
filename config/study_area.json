@@ -1,0 +1,12 @@
+{
+    "name": "Kenya_Highlands_Prototype",
+    "country": "Kenya",
+    "description": "Initial study region for terrain-driven microclimate analysis",
+    "bbox": {
+        "north": 1.5,
+        "south": -1.5,
+        "east": 37.5,
+        "west": 35.0
+    },
+    "coordinate_system": "EPSG:4326"
+}

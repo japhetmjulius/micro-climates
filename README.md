@@ -17,7 +17,7 @@ This project aims to build a terrain-aware environmental intelligence system cap
 
 The system should develop in this order:
 
-Data → scientific analysis → baseline models → machine learning → risk analysis → real-time system → AI-assisted interpretation.
+Data → scientific research → baseline models → machine learning → risk analysis → real-time system → AI-assisted interpretation.
 
 AI must assist the scientific system rather than replace measurement, statistical analysis or validation.
 
@@ -25,7 +25,7 @@ AI must assist the scientific system rather than replace measurement, statistica
 
 The initial stage is **data and scientific foundations**.
 
-Do not begin with a large AI model. First establish reliable data collection, storage, cleaning, visualization and geographic analysis.
+
 
 ## Repository structure
 
