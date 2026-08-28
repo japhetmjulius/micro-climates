@@ -42,10 +42,28 @@ print("\nMaximum cold_anomaly frequency:")
 print(float(cold_frequency.max()))
 
 persistent_warm = warm_frequency >= 0.5
-persistent_cold = cold_frequency <= 0.5
+persistent_cold = cold_frequency >= 0.5
 
 print("\npersistent warm cells:")
 print(persistent_warm.sum().item())
 
 print("\npersistent cold cells:")
 print(persistent_cold.sum().item())
+print("\n=== PERSISTENT WARM LOCATIONS ===")
+
+warm_locations = warm_frequency.where(
+    persistent_warm,
+    drop=True
+)
+
+print(warm_locations)
+
+
+print("\n=== PERSISTENT COLD LOCATIONS ===")
+
+cold_locations = cold_frequency.where(
+    persistent_cold,
+    drop=True
+)
+
+print(cold_locations)
