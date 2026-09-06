@@ -12,7 +12,7 @@ plt.figure(figsize=(10,6))
 
 snapshot.attrs["units"] = "°C"
 snapshot.attrs["long_name"] = "2 metre temperature"
-
+plt.snapshot()
 plt.title("ERA5 2m Temperature - 2025-01-01 12:00 UTC")
 plt.xlabel("longitude")
 plt.ylabel("latitude")
